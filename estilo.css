@@ -104,7 +104,7 @@ body #namepage::before{
 }
 
 #pres, #exp, #skills, #cont{
-    text-align: center;
+    text-align: left;
     margin: 0;
     font-size: 50px;
     font-family: mon;
@@ -124,6 +124,26 @@ body #namepage::before{
     100%{
         text-shadow: #b4cf06 0px 0px,#0d22da 0px 0px;
     }
+}
+
+
+.foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 2100%;
+    background-image: url("imagen.jpeg");
+    background-size: cover;
+    background-position: center;
+    transition: all ease-in-out 160ms;
+    cursor: pointer;
+}
+
+article{
+    width: 50%;
+}
+
+aside{
+    width: 50%;
 }
 
 @media(max-width: 900px){
