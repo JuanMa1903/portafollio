@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header {
     margin-bottom: 20px;
     background: #252932;
@@ -104,5 +108,14 @@ aside{
         width: 100%;
         text-align: center;
         line-height: 100px;
+    }
+
+    .headeronmove{
+        height: auto;
+    }
+
+    .headeronmove #namepage,
+    .headeronmove nav{
+        line-height: 50px;
     }
 }
