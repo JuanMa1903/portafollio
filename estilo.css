@@ -1,4 +1,83 @@
-header {
-    background-color: aquamarine;
-    flex-wrap: wrap;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    margin-bottom: 20px;
+    background: #252932;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header #namepage{
+    color: #f2f2f2;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+}
+
+header nav{
+    float: right;
+    line-height: 200px;
+}
+
+header nav a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 1000ms ease;
+}
+
+header nav a:hover{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);;
+    border-radius: 50px;
+}
+
+body #namepage{
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+body #namepage::before{
+    content: "Portafolio";
+    width: 100px;
+    color: rgb(9, 140, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 1px solid blue;
+    animation: slide 8s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes slide{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+
+article{
+    background-color: blueviolet;
+}
+
+aside{
+    background-color: bisque;
+}
+
