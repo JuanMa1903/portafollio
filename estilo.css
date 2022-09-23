@@ -151,7 +151,6 @@ body #namepage::before{
     background-size: cover;
     background-position: center;
     transition: all ease-in-out 160ms;
-    cursor: pointer;
 }
 
 article{
