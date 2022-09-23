@@ -142,7 +142,6 @@ body #namepage::before{
     }
 }
 
-
 .foto{
     width: 200px;
     height: 200px;
@@ -151,14 +150,19 @@ body #namepage::before{
     background-size: cover;
     background-position: center;
     transition: all ease-in-out 160ms;
+    float: center;
 }
 
 article{
-    width: 50%;
+    margin-top: 1em;
+    width: 75%;
+    float: left;
 }
 
 aside{
-    width: 50%;
+    margin-top: 1em;
+    width: 25%;
+    float: right;
 }
 
 
