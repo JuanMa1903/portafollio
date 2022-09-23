@@ -40,7 +40,7 @@ header nav a{
 }
 
 header nav a:hover{
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     border-radius: 50px;
 }
 
@@ -52,11 +52,10 @@ body #namepage{
 body #namepage::before{
     content: "Portafolio";
     width: 100px;
-    color: rgb(9, 140, 255);
+    color: #fbc2eb;
     position: absolute;
     top: 0;
     left: 0;
-    border-right: 1px solid blue;
     animation: slide 8s linear infinite;
     overflow: hidden;
 }
