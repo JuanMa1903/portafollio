@@ -10,6 +10,6 @@ $(document).ready(function () {
 
 var contenidopres = "<div><p>Hola!</p></div>";
 
-const pal = document.getElementById(".presentacion");
+const Padre = document.getElementById("presentacion");
 
-pal.insertAdjacentElement('beforeend', contenidopres)
+Padre.insertAdjacentHTML("beforeend", "hola si sirvo");
