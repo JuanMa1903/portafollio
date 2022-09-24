@@ -8,8 +8,10 @@ $(document).ready(function () {
   });
 });
 
-var contenidopres = "<div><p>Hola!</p></div>";
+const contenidopres = document.getElementById("presentacion");
+contenidopres.insertAdjacentHTML('beforeend',"<div><p>Hola!</p></div>");
+contenidopres.addClass('div', op);
 
-const Padre = document.getElementById("presentacion");
-
-Padre.insertAdjacentHTML("beforeend", "hola si sirvo");
+const contenidohabs = document.getElementById("habilidades");
+contenidohabs.insertAdjacentHTML('beforeend',"<div><p>Hola!</p></div>");
+contenidohabs.addClass('div', op);

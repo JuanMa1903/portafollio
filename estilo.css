@@ -56,12 +56,15 @@ header nav a {
   line-height: normal;
   font-size: 20px;
   font-weight: bold;
-  transition: all 1000ms ease;
+  transition: all 500ms ease;
+  border-radius: 50px;
 }
 
 header nav a:hover {
+  -webkit-box-shadow: inset -10px 10px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset -10px 10px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset -10px 10px 8px 0px rgba(0, 0, 0, 0.75);
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  border-radius: 50px;
 }
 
 .headeronmove {
