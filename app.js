@@ -1,11 +1,15 @@
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if($(this).scrollTop() > 0){
-            $('header').addClass('headeronmove');
-        }else{
-            $('header').removeClass('headeronmove');
-        }
-    });
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 0) {
+      $("header").addClass("headeronmove");
+    } else {
+      $("header").removeClass("headeronmove");
+    }
+  });
 });
 
-const section = document.getElementById("presentacion");
+var contenidopres = "<div><p>Hola!</p></div>";
+
+const pal = document.getElementById(".presentacion");
+
+pal.insertAdjacentElement('beforeend', contenidopres)

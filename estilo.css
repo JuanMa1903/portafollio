@@ -154,17 +154,23 @@ body #namepage::before{
 }
 
 article{
-    margin-top: 1em;
-    width: 75%;
+    margin: 1em 1em 1em 1em;
+    width: 65%;
+    height: 100%;
     float: left;
 }
 
 aside{
-    margin-top: 1em;
-    width: 25%;
+    margin: 1em 1em 1em 1em;
+    width: 400px;
+    height: 1000px;
     float: right;
 }
 
+footer{
+    position: fixed;
+    width: 100px;
+}
 
 @media(max-width: 900px){
     header #namepage,
