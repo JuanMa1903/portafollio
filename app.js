@@ -9,7 +9,19 @@ $(document).ready(function () {
 });
 
 const contenidopres = document.getElementById("presentacion");
-contenidopres.insertAdjacentHTML('beforeend',"<div class = 'op'><p>Aqui me presento!</p></div>");
+contenidopres.insertAdjacentHTML(
+  "beforeend",
+  "<div class = 'op'><p>Aqui me presento!</p></div>"
+);
 
 const contenidohabs = document.getElementById("habilidades");
-contenidohabs.insertAdjacentHTML('beforeend',"<div class = 'op'><p>Mis habilidades son!</p></div>");
+contenidohabs.insertAdjacentHTML(
+  "beforeend",
+  "<div class = 'op'><p>Mis habilidades son!</p></div>"
+);
+
+const contenidoexp = document.getElementById("experiencia");
+contenidohabs.insertAdjacentHTML(
+  "afterbegin",
+  "<div class = 'op'><p>Tengo experiencia en!</p></div>"
+);
