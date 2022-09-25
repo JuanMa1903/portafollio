@@ -173,6 +173,7 @@ article {
   width: 65%;
   height: 1500px;
   float: left;
+  padding-left: 1em;
 }
 
 .op {
@@ -210,6 +211,25 @@ aside {
   width: 30%;
   height: 1000px;
   float: right;
+}
+
+button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 500ms ease;
+  border-radius: 50px;
+}
+
+button:hover {
+  transform: scale(1.2);
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  /*box-shadow: inset -10px 10px 8px 0px rgba(0, 0, 0, 0.75);*/
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
 footer {
