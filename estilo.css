@@ -84,7 +84,7 @@ header nav a:hover {
 }
 
 body {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1038%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='52.53' cx='212.32' cy='422.71' fill='url(%23SvgjsLinearGradient1039)'%3e%3c/circle%3e%3ccircle r='30.17' cx='395.93' cy='332.29' fill='url(%23SvgjsLinearGradient1040)'%3e%3c/circle%3e%3ccircle r='19.98' cx='964.73' cy='339.19' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='52.53' cx='667.95' cy='204.17' fill='url(%23SvgjsLinearGradient1041)'%3e%3c/circle%3e%3ccircle r='30.03' cx='166.05' cy='270.56' fill='url(%23SvgjsLinearGradient1042)'%3e%3c/circle%3e%3ccircle r='31.075' cx='929.18' cy='331.35' fill='url(%23SvgjsLinearGradient1043)'%3e%3c/circle%3e%3ccircle r='27.445' cx='687.25' cy='478.06' fill='url(%23SvgjsLinearGradient1044)'%3e%3c/circle%3e%3ccircle r='37.47' cx='241.18' cy='304.32' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1038'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='107.25999999999999' y1='422.71' x2='317.38' y2='422.71' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1039'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='335.59000000000003' y1='332.2900000000001' x2='456.27000000000004' y2='332.2900000000001' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1040'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='562.8900000000001' y1='204.17' x2='773.0100000000001' y2='204.17' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1041'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='105.99000000000001' y1='270.56' x2='226.11' y2='270.56' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1042'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='867.03' y1='331.35' x2='991.3299999999999' y2='331.35' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1043'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='632.36' y1='478.06' x2='742.14' y2='478.06' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='166.24' y1='304.32' x2='316.12' y2='304.32' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-color: #ccc;
 }
 
 article {
@@ -119,11 +119,6 @@ body #namepage::before {
   }
 }
 
-@font-face {
-  font-family: mon;
-  src: url(IndieFlower-Regular.ttf);
-}
-
 #pres,
 #exp,
 #skills,
@@ -131,7 +126,7 @@ body #namepage::before {
   text-align: left;
   margin: 0;
   font-size: 50px;
-  font-family: mon;
+  font-family: Arial, 'Times New Roman', Times, serif;
   animation: glitch 3s infinite;
   animation-duration: 25s;
 }
@@ -178,7 +173,7 @@ article {
 
 .op {
   width: 75%;
-  height: 250px;
+  height: auto;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 25px;
   padding-top: 10px;
@@ -186,7 +181,7 @@ article {
 
 .contenedor {
   width: 75%;
-  height: 250px;
+  height: auto;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 25px;
   margin: 0 auto;
@@ -196,7 +191,15 @@ article {
 
 table {
   margin: 0 auto;
+  width: 90%;
+  text-align: left;
+  border-collapse: collapse;
 }
+
+th, td{
+  padding: 20px;
+}
+
 
 h3 {
   padding: 1em;
@@ -206,11 +209,8 @@ p {
   padding: 1em;
 }
 
-aside {
-  margin: 2em 1em 1em 1em;
-  width: 30%;
-  height: 1000px;
-  float: right;
+.contenedor-tabla{
+
 }
 
 button {
@@ -229,6 +229,17 @@ button:hover {
   box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.6);
   opacity: 1;
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+aside {
+  margin: 2em 1em 1em 1em;
+  width: 30%;
+  height: 1000px;
+  float: right;
+}
+
+#profile{
+  text-align: justify;
 }
 
 footer {
