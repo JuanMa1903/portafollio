@@ -17,7 +17,7 @@ contenidopres.insertAdjacentHTML(
 const contenidohabs = document.getElementById("habilidades");
 contenidohabs.insertAdjacentHTML(
   "beforeend",
-  "<div class = 'op'><p>Mis habilidades son!</p></div>"
+  "<div class = 'op'><table><tr><th>Tecnologia</th><th>Nivel</th></tr><tr><td>Python</td></tr><tr><td>7</td></tr></table></div>"
 );
 
 const contenidoexp = document.getElementById("experiencia");

@@ -123,7 +123,7 @@ body #namepage::before {
 
 @font-face {
   font-family: mon;
-  src: url(IBMPlexMono-BoldItalic.ttf);
+  src: url(IndieFlower-Regular.ttf);
 }
 
 #pres,
@@ -135,7 +135,7 @@ body #namepage::before {
   font-size: 50px;
   font-family: mon;
   animation: glitch 3s infinite;
-  animation-duration: 12s;
+  animation-duration: 25s;
 }
 
 @keyframes glitch {
@@ -185,10 +185,6 @@ article {
   padding-top: 10px;
 }
 
-.conteiner{
-  height: 350px;
-}
-
 .contenedor {
   width: 75%;
   height: 250px;
@@ -197,6 +193,10 @@ article {
   margin: 0 auto;
   margin-top: 1em;
   text-align: center;
+}
+
+table{
+  margin: 0 auto;
 }
 
 h3 {
