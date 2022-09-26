@@ -96,29 +96,6 @@ body #namepage {
   font-family: Arial, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
 }
 
-body #namepage::before {
-  content: "Portafolio";
-  width: 100px;
-  color: #b490ca;
-  position: absolute;
-  top: 0;
-  left: 0;
-  animation: slide 8s linear infinite;
-  overflow: hidden;
-}
-
-@keyframes slide {
-  0% {
-    width: 0%;
-  }
-  50% {
-    width: 100%;
-  }
-  100% {
-    width: 0%;
-  }
-}
-
 #pres,
 #exp,
 #skills,
