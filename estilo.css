@@ -145,6 +145,25 @@ body #namepage::before {
   }
 }
 
+.code {
+  width: 200px;
+  height: 200px;
+  border-radius: 2100%;
+  background-image: url("code.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: all ease-in-out 160ms;
+  cursor: pointer;
+  margin: 1em 2em;
+}
+
+.code:hover {
+  transform: scale(1.2);
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  margin-bottom: 2em;
+}
+
 .foto {
   width: 200px;
   height: 200px;

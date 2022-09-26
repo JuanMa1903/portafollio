@@ -11,7 +11,7 @@ $(document).ready(function () {
 const contenidopres = document.getElementById("presentacion");
 contenidopres.insertAdjacentHTML(
   "beforeend",
-  "<div class = 'op'><p>Aqui me presento!</p></div>"
+  "<div class = 'op'><div class='code'></div><p>Aqui me presento!</p></div>"
 );
 
 const contenidohabs = document.getElementById("habilidades");
