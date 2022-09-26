@@ -23,7 +23,7 @@ contenidohabs.insertAdjacentHTML(
 const contenidoexp = document.getElementById("experiencia");
 contenidoexp.insertAdjacentHTML(
   "beforeend",
-  "<div class = 'op'><p>Quiero seguir aprendiendo y fortalecer los conocimientos previamente adquiridos</p></div>"
+  "<div class = 'op'><p>Quiero seguir aprendiendo y fortalecer los conocimientos previamente adquiridos. Estudiante de sexto semestre de la universidad del magdalena. Realice dos diplomados con Mintic, el primero fue realizado con platzi sobre Inteligencia artificial con Python y el segundo fue realizado con la Universidad Autonoma de Bucaramanga </p></div>"
 );
 
 const contenidocon = document.getElementById("contacto");
