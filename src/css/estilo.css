@@ -105,7 +105,7 @@ body #namepage {
   text-align: left;
   margin: 0;
   font-size: 50px;
-  font-family: Arial, 'Times New Roman', Times, serif;
+  font-family: Arial, "Times New Roman", Times, serif;
   animation: glitch 3s infinite;
   animation-duration: 25s;
 }
@@ -324,7 +324,7 @@ footer {
   border: 4px solid #000;
 }
 
-.text-input:focus+.label,
+.text-input:focus + .label,
 .filled {
   top: -15px;
   color: #000;
@@ -347,7 +347,6 @@ footer {
 }
 
 @media (max-width: 900px) {
-
   header #namepage,
   header nav {
     width: 100%;
@@ -390,4 +389,5 @@ footer {
   }
 }
 
-@media (maxwidth: 1599px) {}
+@media (maxwidth: 969px) {
+}

@@ -11,7 +11,7 @@ $(document).ready(function () {
 const contenidopres = document.getElementById("presentacion");
 contenidopres.insertAdjacentHTML(
   "beforeend",
-  "<div class = 'op'><div class='code'></div><p id = 'sobremi'>Me gusta aprender continuamente, tener retos que me exijan  y crecer profesionalmente. Esta imagen me representa ya que es algo que veo a diario, esto porque soy muy curioso desde pequeño y no he dejado de aprender acerca de esto, desde desarrollo web, sistemas operativos e incluso el manejo de la terminal</p></div>"
+  "<div class = 'op'><div class='code'></div><p id = 'sobremi'>Esta imagen me representa por los significados que llega a tener, desde algo lógico y que va de la mano con lo profesional o como algo creativo que me permite expresarme como quiero he incluso curiosear más allá. Desde pequeño he tenido gran atracción por la tecnología y en cuanto pude empecé a estudiar sobre ella, incluso años antes de siquiera conocer bien todo el mundo que representaba esta misma. Para mi esta imagen es un recuerdo de todo lo que aprendí, pero también significa que tengo mucho más por aprender.</p></div>"
 );
 
 const contenidohabs = document.getElementById("habilidades");
@@ -40,11 +40,11 @@ function enviar() {
   ) {
     alert(
       "Asunto: " +
-      document.getElementById("asunto").value +
-      "\nCorreo: " +
-      document.getElementById("email").value +
-      "\nMensaje: " +
-      document.getElementById("message").value
+        document.getElementById("asunto").value +
+        "\nCorreo: " +
+        document.getElementById("email").value +
+        "\nMensaje: " +
+        document.getElementById("message").value
     );
   }
 }
