@@ -186,7 +186,7 @@ article {
   text-align: justify;
 }
 
-.lista-exp{
+.lista-exp {
   padding: 2em;
 }
 
@@ -393,5 +393,3 @@ footer {
   }
 }
 
-@media (maxwidth: 969px) {
-}
