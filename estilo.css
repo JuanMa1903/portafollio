@@ -37,6 +37,7 @@ header {
   max-width: 10000px;
   margin: auto;
   overflow: hidden;
+  z-index: 1;
 }
 
 header #namepage {
@@ -85,6 +86,7 @@ header nav a:hover {
 
 body {
   background: #ccc;
+  width: 99%;
 }
 
 article {
@@ -163,7 +165,7 @@ body #namepage {
   transform: scale(1.2);
   box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.6);
   opacity: 1;
-  z-index: 0;
+  z-index: -1;
 }
 
 article {
@@ -181,6 +183,7 @@ article {
   border-radius: 25px;
   padding-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
 
 .contenedor {
@@ -232,7 +235,7 @@ button:hover {
 }
 
 aside {
-  margin: 2em 1em 1em 1em;
+  margin: 70px 0px 0px 0px;
   width: 30%;
   height: 1000px;
   float: right;
@@ -291,7 +294,7 @@ footer {
   top: 14px;
   transition: all 0.2s;
   padding: 0 2px;
-  z-index: 1;
+  z-index: 0;
   color: #be2725;
   font-weight: bold;
 }
@@ -338,7 +341,7 @@ footer {
   opacity: 1;
 }
 
-.img-footer{
+.img-footer {
   width: 50px;
   height: 50px;
 }

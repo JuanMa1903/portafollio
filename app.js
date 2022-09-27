@@ -23,7 +23,7 @@ contenidohabs.insertAdjacentHTML(
 const contenidoexp = document.getElementById("experiencia");
 contenidoexp.insertAdjacentHTML(
   "beforeend",
-  "<div class = 'op'><p>Quiero seguir aprendiendo y fortalecer los conocimientos previamente adquiridos.<br> Estudiante de sexto semestre de la universidad del magdalena. Realice dos diplomados con Mintic, el primero fue realizado con platzi sobre Inteligencia artificial con Python y el segundo fue realizado con la Universidad Autonoma de Bucaramanga como habilidades en programacion con enfasis en aplicaciones web y dentro del ultimo ciclo del curso desarrollo web.<br>Realice diversos cursos en plataformas como platzi, udemy yfreecodeCamp donde obtuve diversos conocimientos de las tecngologias en la rama de desarrollo web</p></div>"
+  "<div class = 'op'><p>Mis expectativas laborales <br> Estudiante de sexto semestre de la universidad del magdalena. Realice dos diplomados con Mintic, el primero fue realizado con platzi sobre Inteligencia artificial con Python y el segundo fue realizado con la Universidad Autonoma de Bucaramanga como habilidades en programacion con enfasis en aplicaciones web y dentro del ultimo ciclo del curso desarrollo web.<br>Realice diversos cursos en plataformas como platzi, udemy y freecodeCamp donde obtuve diversos conocimientos de las tecngologias en la rama de desarrollo web</p></div>"
 );
 
 const contenidocon = document.getElementById("contacto");
@@ -40,11 +40,11 @@ function enviar() {
   ) {
     alert(
       "Asunto: " +
-        document.getElementById("asunto").value +
-        "\nCorreo: " +
-        document.getElementById("email").value +
-        "\nMensaje: " +
-        document.getElementById("message").value
+      document.getElementById("asunto").value +
+      "\nCorreo: " +
+      document.getElementById("email").value +
+      "\nMensaje: " +
+      document.getElementById("message").value
     );
   }
 }
