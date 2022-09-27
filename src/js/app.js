@@ -29,7 +29,7 @@ contenidoexp.insertAdjacentHTML(
 const contenidocon = document.getElementById("contacto");
 contenidocon.insertAdjacentHTML(
   "beforeend",
-  "<div class = 'conteiner op'><form action='' class='form'><div class='input-container'><input type='text' id='asunto' class='text-input' autocomplete='off' placeholder='Asunto' required><label for='asunto' class='label'>Asunto</label></div><br><div class='input-container'><input type='email' id='email' class='text-input' autocomplete = 'off' placeholder = 'E-mail' required><label for='email' class='label'>E-mail</label></div><br><div class='input-container'><input type='text' id='message' class='text-input' placeholder='Escriba su Mensaje'autocomplete='off' maxlength='1000' required><label for='message' class='label'>Escriba su Mensaje</label></div><br><button id = 'alerta'>Enviar</button></form></div>"
+  "<div class = 'conteiner op'><form action='' class='form'><div class='input-container'><input type='text' id='asunto' class='text-input' autocomplete='off' placeholder='Asunto*' required><label for='asunto' class='label'>Asunto*</label></div><br><div class='input-container'><input type='email' id='email' class='text-input' autocomplete = 'off' placeholder = 'Correo electronico*' required><label for='email' class='label'>E-mail*</label></div><br><div class='input-container'><input type='text' id='message' class='text-input' placeholder='Escriba su Mensaje*'autocomplete='off' maxlength='1000' required><label for='message' class='label'>Escriba su Mensaje*</label></div><br><button id = 'alerta'>Enviar</button></form></div>"
 );
 
 function enviar() {
