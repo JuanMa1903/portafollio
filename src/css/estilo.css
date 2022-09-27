@@ -128,7 +128,7 @@ body #namepage {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  background-image: url("code.jpg");
+  background-image: url("../img/code.jpg");
   background-size: cover;
   background-position: center;
   transition: all ease-in-out 160ms;
@@ -152,7 +152,7 @@ body #namepage {
   width: 200px;
   height: 200px;
   border-radius: 2100%;
-  background-image: url("imagen.jpeg");
+  background-image: url("../img/imagen.jpeg");
   background-size: cover;
   background-position: center;
   transition: all ease-in-out 160ms;
