@@ -171,7 +171,7 @@ body #namepage {
 article {
   margin: 2em 1em 1em 1em;
   width: 65%;
-  height: 1700px;
+  height: 2250px;
   float: left;
   padding-left: 1em;
 }
@@ -184,6 +184,10 @@ article {
   padding-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
+}
+
+.lista-exp{
+  padding: 2em;
 }
 
 .contenedor {
