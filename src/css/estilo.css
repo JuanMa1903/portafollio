@@ -76,6 +76,26 @@ header nav a:hover {
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
+li{
+  padding: 1em;
+}
+
+.boton-lista{
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 500ms ease;
+  border-radius: 50px;
+}
+
+.boton-lista:hover{
+  box-shadow: inset -10px 10px 8px 0px rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
 .headeronmove {
   position: fixed;
   height: 100px;
@@ -98,10 +118,6 @@ header nav a:hover {
 body {
   background: #ccc;
   width: 99%;
-}
-
-article {
-  margin-bottom: 1em;
 }
 
 body #namepage {
@@ -182,7 +198,7 @@ body #namepage {
 article {
   margin: 2em 1em 1em 1em;
   width: 65%;
-  height: 2250px;
+  height: 2350px;
   float: left;
   padding-left: 1em;
 }
